@@ -8,6 +8,7 @@ const msg2 = document.getElementById('msg2');
 const msg3 = document.getElementById('msg3');
 const tableData = document.getElementById('tableData');
 const storedData = localStorage.getItem('data');
+console.log("Abc");
 const emailList = [];
 if (storedData?.length) {
     for (user of JSON.parse(storedData)) {
